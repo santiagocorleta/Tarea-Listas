@@ -1,6 +1,3 @@
-# ----------------------------
-# Clase List incluida aquí
-# ----------------------------
 from typing import Any, Optional
 
 class List(list):
@@ -47,11 +44,7 @@ class List(list):
                 end = middle - 1
             middle = (start + end) // 2
         return None
-
-
-# ----------------------------
 # Ejercicio 22 - Jedi
-# ----------------------------
 
 def order_by_name(item):
     return item["nombre"]
@@ -59,7 +52,7 @@ def order_by_name(item):
 def order_by_species(item):
     return item["especie"]
 
-# Lista de Jedi
+# Lista
 jedis = [
     {"nombre": "Yoda", "maestros": [], "sables": ["verde"], "especie": "desconocida"},
     {"nombre": "Luke Skywalker", "maestros": ["Yoda", "Obi-Wan Kenobi"], "sables": ["verde"], "especie": "humano"},
